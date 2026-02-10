@@ -1,8 +1,8 @@
 *{
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
-    
     color: white;
     width: 100%;
     height: 80vh;
@@ -10,6 +10,7 @@ header{
     background-repeat: 100%;
     background-position: 100% 90%;
     background-size: 100%;
+    margin-bottom: 50px;
 }
 nav{
     font-size: 30px;
@@ -83,5 +84,105 @@ main{
     width: 50%;
     height: 50px;
     border-radius: 30px;
-
+}
+section{
+    width: 80%;
+    height: 80vh;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+.sc1{
+    background-color: transparent;
+    margin-top: 180px;
+    height: 125vh;
+}
+.sc1 h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.box{
+    border-radius: 30px;
+    width: 30%;padding: 20px;
+    height: 52vh;
+    box-shadow: 0px 0px 20px 0px rgba(34, 60, 80, 0.48);
+}
+.allbox{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.box img {
+    width: 90%;
+    margin-left: 20px;
+}
+.box h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.boxdf{
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+    display: flex;
+}
+.ot{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 6px;
+    width: 60px;
+    background-color: #D6EDEB;
+    color: green;
+}
+.b1{
+    width: 130px;
+    color: white;
+    padding: 8px;border: none;
+    font-size: 20px;
+    background-color: #177BA5;
+    border-radius: 30px;
+}
+.bxdf{  
+    margin-top: 10px;
+    margin-left: 20px;
+    gap: 110px;
+    align-items:center ;
+    display: flex;
+}
+.sc2{
+    height: 70vh;
+    background-color: #F4F2EE;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    width: 45%;
+    height: 65vh;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    align-content: center;
+    font-size: 30px;
+    width: 45%;
+    height: 65vh;
+}
+.right h1,p{
+    margin-bottom: 20px;
+}
+.b2{
+    width: 250px;
+    background-color: #177BA5;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
 }
