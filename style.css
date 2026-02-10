@@ -194,7 +194,7 @@ section{
     height: 52vh;
 }
 .lf{
-    font-size: 47px;
+    font-size: 45px;
     width: 45%;
     height: 50vh;
 }
@@ -216,4 +216,40 @@ section{
 .rg img{
     width: 32%;
     height: 50vh;
+}
+.al{
+     gap: 20px;
+    display: flex;
+}
+.sc4 {
+    background-color: transparent;
+}
+.sc4 h1{
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+.l{
+    width: 50%;
+    height: 50vh;
+}
+.l img{
+    width: 100%;
+}
+.r{
+    align-content: center;
+    font-size: 39px;
+    width: 50%;
+    height: 50vh;
+}
+.r h2{
+    font-size: 62px;
+}
+.r h2,p{
+    margin-bottom: 30px;
+}
+.dv1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
